@@ -16,8 +16,8 @@ else if (a == b){
 results.innerHTML = b + "- ✔ Oh yes, Given word is a palindrome";
 results.style.color = "green";
 }
-else{; 
-results.innerHTML = b + "- ✖ Oh no, Given word is not a Palindrome";
+else{
+results.innerHTML = b + "- ✖ Oh no, Given word is not a palindrome";
 results.style.color = "red";
 }
 }  
