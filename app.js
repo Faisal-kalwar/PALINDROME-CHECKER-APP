@@ -7,8 +7,7 @@ a = a.toLowerCase();
 var b = "";  
 for (i = a.length-1; i >= 0; i--)  
 {  
-b = b + a[i]
-b = b.toLowerCase(); 
+b = b + a[i]; 
 }
 if (a == ''){
     alert("Please enter the string");
