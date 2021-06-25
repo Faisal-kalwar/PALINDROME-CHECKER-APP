@@ -13,11 +13,11 @@ if (a == ''){
     alert("Please enter the string");
 }  
 else if (a == b){  
-results.innerHTML = b + "- ✔ is a Palindrome String";
+results.innerHTML = b + "- ✔ Oh yes, Given word is a palindrome";
 results.style.color = "green";
 }
 else{; 
-results.innerHTML = b + "- ✖ is not a Palindrome String";
+results.innerHTML = b + "- ✖ Oh no, Given word is not a Palindrome";
 results.style.color = "red";
 }
 }  
